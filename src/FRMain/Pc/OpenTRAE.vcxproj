@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_API.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_AudioCodecADPCM.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_AudioWadManager.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_File.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_FileLoader.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Heap.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_List.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_MemoryManager.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_MemoryManagerSoundRAM.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Util.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Util_PS2EE_Blank.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_API_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_File_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_GlobalFile_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Heap_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Math_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_MemoryManagerSoundRAMPC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Util_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_API_PS2_EE_RPC.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_Heap_PS2EE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_Util_PS2EE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_API.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioData.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioDriver.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioEvent.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItem.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItemDatabase.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItemFileLink.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioListener.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioObject.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioParameter.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioPlayback.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioStreamer.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ChannelManager.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_Instancetable.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_LevelManager.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ProgramLoader.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ReverbManager.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_Sample.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SampleGroup.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SampleGroupPlayback.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SRAMLoader.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_StreamLoader.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_API_PC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_AudioDriverPC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_AudioStreamerPC.cpp" />
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Ps2\CAL1_API_PS2_EE_RPC.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\tools\MemoryWindow\MW.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSequencer.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimationSet.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreCurveData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreJointData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibAudio\CoreAudioPS2Dummy.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreError.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreMap.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStr.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreTypes.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Pc\CoreErrorPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDisplayPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDma.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDrawPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreErrorPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreGSPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreVRAMPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommon.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommonDialog\CoreCommonDialog.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommonDialog\Psp\CoreCommonDialogPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreBuildSystemInterfaceUsingNamedPipe.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreCluster.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterFileSystem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFile.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileDevice.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileOpenAttributes.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileSystem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreRecentFileNameList.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreStdFileSystem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Pc\CoreStdCFileDevicePC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Ps2\CoreStdCFileDevicePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Psp\CoreRawFilePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Psp\CoreStdCFileDevicePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHash.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashElementTable.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashTable.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\CoreInit.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Pc\CoreInitPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Ps2\CoreInitPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Psp\CoreInitPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMapFileParser\CoreMapFileFunctions.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreAngle.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreEulerAngle.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreGeometry.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMaths.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMatrix.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreQuat.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreRandom.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\Pc\CoreMatrixPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMatrixPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemory.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryArray.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPool.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryStack.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreVolatileMemory\CoreVolatileMemory.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\CoreMessageBox.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Pc\CoreMessageBoxPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Ps2\CoreMessageBoxPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Psp\CoreMessageBoxPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\CoreMoviePlayer.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2\CoreMoviePlayerPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2\CoreMoviePlayerPS2_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_avsync.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_display.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_sound.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\CoreNamedPipe.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Pc\CoreNamedPipePC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Ps2\CoreNamedPipePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Psp\CoreNamedPipePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\CoreNetworkDialog.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Pc\CoreNetworkDialogPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Ps2\CoreNetworkDialogPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Psp\CoreNetworkDialogPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\CoreOnScreenKeyboard.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Pc\CoreOnScreenKeyboardPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Ps2\CoreOnScreenKeyboardPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Psp\CoreOnScreenKeyboardPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\CoreRegistry.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\Pc\CoreRegistryPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\Ps2\CoreRegistryPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\CoreSaveGame.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Pc\CoreSaveGamePC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Ps2\CoreSaveGamePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Psp\CoreSaveGamePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\CoreSystem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\Pc\CoreSystemPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\Ps2\CoreSystemPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\CoreTiming.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\Pc\CoreTimingPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\Ps2\CoreTimingPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\CoreUseful.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Pc\CoreUsefulPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Ps2\CoreUsefulPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Psp\CoreUsefulPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFXDebug.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFX.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXDefault.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXLibrary.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAIController\CoreAIController.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManager.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudioLocator\CoreAudioLocatorObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudio.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudioSpeechQueue.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Pc\CoreAudio_PC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Ps2\CoreAudio_PS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Psp\CoreAudioPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimList.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlender.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderBasic.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderComplex.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSequenced.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSimple.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraEffect.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreChaseCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCutSceneCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreFlexibleCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupRailCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreRailCamera.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreViewerObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreConsole\CoreConsole.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutSceneObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutScenePlayer.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreDetect\CoreDetect.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreFont\CoreFont.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameController\CoreGameController.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameDialogs\CoreGameDialogs.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameRender\CoreGameRender.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernel.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernelInitGame.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Pc\CoreKernelPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreExceptPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreKernelPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Psp\CoreKernelPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevel.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelAsync.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelDetect.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelGeometry.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelNavigation.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreNode.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuBase.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponent.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentListBox.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentSlider.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuSystem.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreEvent.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreObjectController.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreAnimatingObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreGeometryObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreRenderableObject.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CorePanel\CorePanel.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreWorld\CoreWorld.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreBatchRender.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebug.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebugInput.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDevice.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreBGLightController.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet\CoreCurveSetData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelCompiled.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelDynamicFlap.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelDynamicLight.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFileFlap.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFileLight.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLight.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLightSet.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationData.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationMesh.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreSceneContainer.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelCompiled.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelGeometry.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelJoint.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelSkeleton.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\Ps2\CoreVertexPacket.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureSet.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\Ps2\CoreTextureFunctionsPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreBatchRenderPC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDeviceOpenGL.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDevicePC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreBatchRenderPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreFullScreenPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2InternalData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CorePacketsPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreTextureManagerPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVU1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVUCodeModule.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Psp\CoreGraphicsDevicePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInput.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputAction.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputContext.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputDevice.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputID.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputMapping.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Pc\CoreInputDeviceDirectInput.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Ps2\CoreInputDeviceKeyboardPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Ps2\CoreInputDevicePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Psp\CoreInputDevicePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNet.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDevice.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceDebug.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceLobbying.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceSynchronisation.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Pc\CoreNetDevicePC.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Ps2\CoreNetDevicePS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Psp\CoreNetDevicePSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsArticulate.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsBody.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsCollision.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsJoint.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsWorld.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreCommand.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreProgramCounter.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScript.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScripted.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreVariable.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Storage\CoreBinaryScriptStore.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Storage\CoreVariableStore.cpp" />
+    <ClCompile Include="..\..\CoreEngine\CoreLibText\CoreGameText.cpp" />
+    <ClCompile Include="..\..\FRBackgroundObject\FRBackgroundObject.cpp" />
+    <ClCompile Include="..\..\FREffects\FRFXLibrary.cpp" />
+    <ClCompile Include="..\..\FREffects\Pc\TRRoomEffectsPC.cpp" />
+    <ClCompile Include="..\..\FREffects\Ps2\TRRoomEffectsPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\Psp\TRRoomEffectsPSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\TRRoomEffects.cpp" />
+    <ClCompile Include="..\..\FRGameController\FRGameController.cpp" />
+    <ClCompile Include="..\..\FRGlobals\FRGlobals.cpp" />
+    <ClCompile Include="..\..\FRLevel\FRLevel.cpp" />
+    <ClCompile Include="..\..\FRLevel\FRTrickText.cpp" />
+    <ClCompile Include="..\..\FRLevel\TRCollision.cpp" />
+    <ClCompile Include="..\..\FRLevel\TRObjectDB.cpp" />
+    <ClCompile Include="..\..\FRLevel\TRRoom.cpp" />
+    <ClCompile Include="..\..\FRLevel\TRSaveGame.cpp" />
+    <ClCompile Include="..\..\FRLevel\TRTriggers.cpp" />
+    <ClCompile Include="..\..\FRObjectController\FRObjectController.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRAnimControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRAnimScriptControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRJumpControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRMiscControlFunctions.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerCollision.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerObject.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRShimmyControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\FRTrickTable.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\TRClimbControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\TRHair.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\TRSwimControl.cpp" />
+    <ClCompile Include="..\..\FRPlayerObject\TRWeaponControl.cpp" />
+    <ClCompile Include="..\..\FRWorld\FRWorld.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewBat.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewBear.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewCogs.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewCroc.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewDino.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewDoors.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewHints.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewLightning.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewMoveBlock.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewPeople.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewPickups.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewRaptor.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewRat.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewSwitches.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewTraps.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewWarrior.cpp" />
+    <ClCompile Include="..\..\ObjectControl\NewWolf.cpp" />
+    <ClCompile Include="..\..\ObjectControl\SpecialObjects.cpp" />
+    <ClCompile Include="..\..\Trai\TRAIController.cpp" />
+    <ClCompile Include="..\..\TRAttractors\TRAttractors.cpp" />
+    <ClCompile Include="..\..\TRCamera\TRChaseCamera.cpp" />
+    <ClCompile Include="..\..\TRCamera\TRFixedCamera.cpp" />
+    <ClCompile Include="..\..\TREditor\TREditCameras.cpp" />
+    <ClCompile Include="..\..\TREditor\TREditItems.cpp" />
+    <ClCompile Include="..\..\TREditor\TREditor.cpp" />
+    <ClCompile Include="..\..\TREditor\TREditorDialog.cpp" />
+    <ClCompile Include="..\..\TREditor\TREditTriggers.cpp" />
+    <ClCompile Include="..\..\TREditor\TREdObject.cpp" />
+    <ClCompile Include="..\..\TREditor\TREventDialog.cpp" />
+    <ClCompile Include="..\..\TREditor\TRHitItem.cpp" />
+    <ClCompile Include="..\..\TREditor\TRItemsDialog.cpp" />
+    <ClCompile Include="..\..\TREditor\TRNodeDialog.cpp" />
+    <ClCompile Include="..\..\TREditor\TRPickTargetDialog.cpp" />
+    <ClCompile Include="..\..\TREditor\TRRegVal.cpp" />
+    <ClCompile Include="..\..\TREditor\TRTriggersDialog.cpp" />
+    <ClCompile Include="..\..\TREffects\TREffects.cpp" />
+    <ClCompile Include="..\..\TRFoliage\TRFoliageObject.cpp" />
+    <ClCompile Include="..\..\TRGameObject\TRGameObject.cpp" />
+    <ClCompile Include="..\..\TRGameObject\TRRagdoll.cpp" />
+    <ClCompile Include="..\..\TRHashes\TRHashes.cpp" />
+    <ClCompile Include="..\..\TRInventory\TRInventory.cpp" />
+    <ClCompile Include="..\..\TRInventory\TRInvObject.cpp" />
+    <ClCompile Include="..\..\TRItem\TRItem.cpp" />
+    <ClCompile Include="..\..\TRMenuSystem\MemCardGUI_PS2.cpp" />
+    <ClCompile Include="..\..\TRMenuSystem\MemCardPS2.cpp" />
+    <ClCompile Include="..\..\TRMenuSystem\Pc\TRMenuSystemPC.cpp" />
+    <ClCompile Include="..\..\TRMenuSystem\Ps2\TRMenuSystemPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\TRMenuSystem.cpp" />
+    <ClCompile Include="..\..\TRMenuSystem\TRProfile.cpp" />
+    <ClCompile Include="..\..\TRMultiMesh\TRMultiMeshObject.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRBGLightNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRCameraNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRECameraNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TREdItemNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRETriggerNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRFXNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRManipNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRNodes.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRObjectNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRSceneryNode.cpp" />
+    <ClCompile Include="..\..\TRNodes\TRTriggerNode.cpp" />
+    <ClCompile Include="..\..\TRPanel\TRPanel.cpp" />
+    <ClCompile Include="..\..\TRSound\NewAudioInfo.cpp" />
+    <ClCompile Include="..\..\TRSound\TRSound.cpp" />
+    <ClCompile Include="..\Ps2\FRMainPS2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FRMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_Float.h" />
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_HeaderData.h" />
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_SectionInfo.h" />
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_AudioDriver.h" />
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_AudioPlayback.h" />
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_SampleGroupPlayback.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimBlend.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSequencer.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSpec.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreSpecMapping.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimationSet.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreBlendShapeData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreCurveData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreJointData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreMarkerData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreTimeMarker.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreMap.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStr.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStringBuffer.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDisplayPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDma.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreGSPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreVRAMPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreCluster.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterFileSystem.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFile.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileDevice.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileHandle.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileSystem.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreStdFileSystem.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Ps2\CoreStdCFileDevicePS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHash.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashArray.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashElementTable.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreAngleAxis.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreEulerAngle.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreGeometry.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMatrix.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CorePlaneEquation.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreQuat.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreVector.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMathsPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMatrixPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreVector128PS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreVectorPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMem.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemory.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryArray.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPool.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPoolBlock.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryStack.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFX.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXDefault.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAIController\CoreAIController.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManager.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManagerMemoryBlock.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudioLocator\CoreAudioLocatorObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudio.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudioSpeechQueue.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimList.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimSlot.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlender.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderBasic.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderComplex.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSequenced.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSimple.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreChaseCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCutSceneCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreFlexibleCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupRailCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreRailCamera.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreViewerObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreConsole\CoreConsole.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutSceneObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutScenePlayer.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreDetect\CoreDetect.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreFont\CoreFont.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameController\CoreGameController.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameDialogs\CoreGameDialogs.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameRender\CoreGameRender.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernel.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreExceptPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevel.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuBase.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponent.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentListBox.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuSystem.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreObjectController.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreAnimatingObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreGeometryObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObjectUpdateStruct.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CorePlayAnimInfo.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreRenderableObject.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreWorld\CoreWorld.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreBatchRender.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebug.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDevice.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDeviceNull.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet\CoreCurveSetData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreDetectionData.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFlap.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLight.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLightSet.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationMesh.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreRTreeRecord.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreMeshInstanceInfo.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelBlendShape.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelCompiled.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelGeometry.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelJoint.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMaterial.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMatrixPalette.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMesh.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelSkeleton.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureAnimationInfo.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureInfo.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureSet.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\Pc\CoreTextureFunctionsPC.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreBatchRenderPC.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDeviceOpenGL.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreBatchRenderPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2InternalData.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CorePacketsPS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVUCodeModule.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputAction.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputDevice.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputDeviceNull.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputState.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\CoreNetDevice.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceNULL.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\Pc\CoreNetDevicePC.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\Ps2\CoreNetDevicePS2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsArticulate.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsBody.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsJoint.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsWorld.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreCommand.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScript.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScripted.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScriptUpdate.h" />
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreVariable.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibAnim2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibCommon2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibEffects2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibGame2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibGraphics2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibInput2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibPhysics2.h" />
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibScripted2.h" />
+    <ClInclude Include="..\..\FRBackgroundObject\FRBackgroundObject.h" />
+    <ClInclude Include="..\..\FREffects\FRFXLibrary.h" />
+    <ClInclude Include="..\..\FREffects\TRRoomEffects.h" />
+    <ClInclude Include="..\..\FRGameController\FRGameController.h" />
+    <ClInclude Include="..\..\FRLevel\FRLevel.h" />
+    <ClInclude Include="..\..\FRLevel\TRObjectDB.h" />
+    <ClInclude Include="..\..\FRObjectController\FRObjectController.h" />
+    <ClInclude Include="..\..\FRPlayerObject\FRPlayerObject.h" />
+    <ClInclude Include="..\..\FRPlayerObject\FRPlayerObjectData.h" />
+    <ClInclude Include="..\..\FRWorld\FRWorld.h" />
+    <ClInclude Include="..\..\Trai\TRAIController.h" />
+    <ClInclude Include="..\..\TRAttractors\TRAttractors.h" />
+    <ClInclude Include="..\..\TRCamera\TRChaseCamera.h" />
+    <ClInclude Include="..\..\TRCamera\TRFixedCamera.h" />
+    <ClInclude Include="..\..\TREditor\TREdObject.h" />
+    <ClInclude Include="..\..\TREditor\TRHitItem.h" />
+    <ClInclude Include="..\..\TRFoliage\TRFoliageObject.h" />
+    <ClInclude Include="..\..\TRGameObject\TRGameObject.h" />
+    <ClInclude Include="..\..\TRInventory\TRInventory.h" />
+    <ClInclude Include="..\..\TRInventory\TRInvObject.h" />
+    <ClInclude Include="..\..\TRMenuSystem\MemCardGUI_PS2.h" />
+    <ClInclude Include="..\..\TRMenuSystem\TRProfile.h" />
+    <ClInclude Include="..\..\TRMultiMesh\TRMultiMeshObject.h" />
+    <ClInclude Include="..\..\TRNodes\TRBGLightNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRCameraNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRETriggerNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRFXNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRManipNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRNodes.h" />
+    <ClInclude Include="..\..\TRNodes\TRObjectNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRSceneryNode.h" />
+    <ClInclude Include="..\..\TRNodes\TRTriggerNode.h" />
+    <ClInclude Include="..\..\TRPanel\TRPanel.h" />
+    <ClInclude Include="Resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Ps2\proview_startup.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B56AD1E7-246F-44FF-869D-5A4CE996154B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenTRAE</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <ProjectName>OpenTRAE</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

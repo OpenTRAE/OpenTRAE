@@ -1,0 +1,2172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FRObjectController">
+      <UniqueIdentifier>{c120d45f-a59f-4803-8516-a3610df4b3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRPlayerObject">
+      <UniqueIdentifier>{fb7550f4-bcbf-4b38-9e7c-38dd2122059a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRWorld">
+      <UniqueIdentifier>{48aca52e-247c-4744-98c9-13e70833ab10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectControl">
+      <UniqueIdentifier>{5e47d3fb-0849-4722-aaf7-f8b27c0db34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trai">
+      <UniqueIdentifier>{b655b9e1-66b9-4fcc-9da8-9d8221f6068b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRAttractors">
+      <UniqueIdentifier>{9cce4661-beac-456e-87a1-c636677e3dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRCamera">
+      <UniqueIdentifier>{8c72e1b3-f54f-40ef-aa93-0da66f49245c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TREditor">
+      <UniqueIdentifier>{025cba50-a9c0-4867-a050-59f00a64a915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TREffects">
+      <UniqueIdentifier>{03977261-cac0-4260-8ece-05aed448b08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRFoliage">
+      <UniqueIdentifier>{cc46d498-9d95-4073-b8e4-39989fc68b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRGameObject">
+      <UniqueIdentifier>{a88cb62c-70ae-4be7-a7ad-54a9e3e7d21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRHashes">
+      <UniqueIdentifier>{81eb5aec-737a-4b3f-ac99-03087bef4ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRInventory">
+      <UniqueIdentifier>{b293c394-c4a1-448c-a8ff-9ff9fcf5ef44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRItem">
+      <UniqueIdentifier>{82e87b47-b51f-47fa-ad60-9225b23116cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRMenuSystem">
+      <UniqueIdentifier>{05c2ea0d-c490-4bb4-8425-b46bdd16ce98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRMenuSystem\Pc">
+      <UniqueIdentifier>{324acc0c-4667-4f51-97b6-fb99eb10adea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRMenuSystem\Ps2">
+      <UniqueIdentifier>{e5a6a3d4-b488-4bb6-8bf0-1c4d55f943ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRMultiMesh">
+      <UniqueIdentifier>{7d2aba38-666f-43d4-adde-86c7b4b035d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRNodes">
+      <UniqueIdentifier>{11d364be-ef49-45fd-9425-7006ff8f9bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRPanel">
+      <UniqueIdentifier>{22f91e57-139f-406f-b28a-4949c6be8012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TRSound">
+      <UniqueIdentifier>{8a76cead-3cc6-4bfd-9c97-3e53d764a90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L0_LowLevel">
+      <UniqueIdentifier>{b4ca982a-069c-4522-b42c-ac3c605b6d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio">
+      <UniqueIdentifier>{b7dadcf3-0815-4dde-ba3b-69d7a4f24a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L0_LowLevel\Pc">
+      <UniqueIdentifier>{c2c59200-2225-45fc-bee0-e9981a6f7432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L0_LowLevel\Ps2">
+      <UniqueIdentifier>{a4fc4122-ec6c-42db-895c-4ebe84a017d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L1_AudioDriver">
+      <UniqueIdentifier>{b73d0f70-df4d-405d-a798-8b4e085cf01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L1_AudioDriver\Pc">
+      <UniqueIdentifier>{05bec4f2-cd8c-4654-a032-39168ca95980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\CA_L1_AudioDriver\Ps2">
+      <UniqueIdentifier>{e22dc981-f1a1-4111-9175-3a2e646c1c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\tools\MemoryWindow">
+      <UniqueIdentifier>{0dcb6aee-374a-4736-ae03-57dee6fe788d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\tools">
+      <UniqueIdentifier>{24febb34-8586-41b8-8d95-bb06fc5bbfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibAnim\CoreAnim">
+      <UniqueIdentifier>{5821ef76-e308-43e9-80b1-50f884f7d95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibAnim">
+      <UniqueIdentifier>{7f8db25f-6962-47a1-91ea-034b920c5764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine">
+      <UniqueIdentifier>{3c5cc940-1b2b-4fb4-9799-55ea1fa9ab57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibAnim\CoreAnimSequencer">
+      <UniqueIdentifier>{373f43bd-c88e-4363-b859-6356eccc3343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibAudio">
+      <UniqueIdentifier>{7b514f40-60be-4f03-8341-d80fa848539e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreBase">
+      <UniqueIdentifier>{18109485-887c-4893-a546-dc1801f46a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon">
+      <UniqueIdentifier>{456201cf-8f91-435a-b5ac-71daa0ba7c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreBase\Pc">
+      <UniqueIdentifier>{fe3a2461-968e-4ed2-807b-dc41a8b6f356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreBase\Ps2">
+      <UniqueIdentifier>{64b31a54-cd36-440a-bcba-b5652da2ef15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreCommonDialog">
+      <UniqueIdentifier>{2c0442ab-e7da-4fe5-b4ee-639657775d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreCommonDialog\Psp">
+      <UniqueIdentifier>{532c96b5-8113-411a-8ee4-35f69a017c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreFile">
+      <UniqueIdentifier>{e32f8087-dd91-4b75-8d5f-06bde1ca389e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreFile\Pc">
+      <UniqueIdentifier>{6f1df406-c2bb-4902-b7fe-51d11ce0daf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreFile\Ps2">
+      <UniqueIdentifier>{7fcef9ed-27a6-48aa-884b-15e25af5ed1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreFile\Psp">
+      <UniqueIdentifier>{4edd7a31-e70c-4515-be60-490e43f25c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreHash">
+      <UniqueIdentifier>{9070e76a-549d-4fbf-98cb-d98e138f6fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreInit">
+      <UniqueIdentifier>{38354fab-0865-4eb8-b0f4-ce3c6e46a7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreInit\Pc">
+      <UniqueIdentifier>{241d66c5-a707-432e-a438-d5b4647fe976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreInit\Ps2">
+      <UniqueIdentifier>{a3717040-e62b-4b97-84ea-5c13a0105236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreInit\Psp">
+      <UniqueIdentifier>{3d3afaeb-c4ca-40e4-b80e-4db4733f01c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMapFileParser">
+      <UniqueIdentifier>{5a694549-8898-4ab5-aa75-c9c9582b543c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMaths">
+      <UniqueIdentifier>{e628d683-2ccf-4366-b9d4-6ca2a9a627b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMaths\Pc">
+      <UniqueIdentifier>{f4ad4ae8-122a-49ad-b6e9-f74bb414b184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMaths\PS2">
+      <UniqueIdentifier>{58419c5f-3f27-4529-aa31-f95da254d512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMemory">
+      <UniqueIdentifier>{cefeece8-fbfa-4f1b-a0df-091ddd28a604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMemory\CoreVolatileMemory">
+      <UniqueIdentifier>{cf07f522-bf25-436a-85ff-6cd7148e694d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMessageBox">
+      <UniqueIdentifier>{a1e27fe3-6e2d-4a7f-b334-d1aeba3ff5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMessageBox\Pc">
+      <UniqueIdentifier>{10c59bce-6c32-429a-9d63-4786f93099d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMessageBox\Ps2">
+      <UniqueIdentifier>{cb7330fd-0fb5-46c1-ae3b-c263e63d6d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMessageBox\Psp">
+      <UniqueIdentifier>{63e0a2cf-8277-42f0-a3bf-c06a9e9eb579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMoviePlayer">
+      <UniqueIdentifier>{b140d53a-ddfe-4cf0-9451-15cab7830f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2">
+      <UniqueIdentifier>{e3f82221-b303-4ab1-883b-61a8d576fa7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp">
+      <UniqueIdentifier>{978e4e3d-316d-402e-8953-e470e0de83a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNamedPipe">
+      <UniqueIdentifier>{22f18756-aec6-42cc-a170-08f7893a8d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNamedPipe\Pc">
+      <UniqueIdentifier>{1648aedc-8f7a-4401-946f-4466747b5a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNamedPipe\Ps2">
+      <UniqueIdentifier>{a5806b87-6aab-41bd-920b-6ffb0dc3790d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNamedPipe\Psp">
+      <UniqueIdentifier>{c8d681a1-56bb-44d1-88ae-ca46cfd0eac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNetworkDialog">
+      <UniqueIdentifier>{62b9f931-243a-43e2-b509-4358ff3ab4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNetworkDialog\Pc">
+      <UniqueIdentifier>{d9cc7203-f155-4775-9e46-7992cacffb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNetworkDialog\Ps2">
+      <UniqueIdentifier>{02b7c00a-f161-4f5c-bf51-fc873873be84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreNetworkDialog\Psp">
+      <UniqueIdentifier>{a5151ed8-2acd-48c1-aed5-c7f454b25ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreOnScreenKeyboard">
+      <UniqueIdentifier>{8a53ada3-ed1c-4e4c-8854-3fe4519a745e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Pc">
+      <UniqueIdentifier>{6aeb881b-ee04-4635-833b-3b35f1652b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Ps2">
+      <UniqueIdentifier>{6b50d204-5068-4272-87c5-402ae6bac01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Psp">
+      <UniqueIdentifier>{1d6750be-6d3b-4304-aaf6-c14b2d09b223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreRegistry">
+      <UniqueIdentifier>{981e8ffe-a815-4dfc-a22f-57b1f61d1f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreRegistry\Pc">
+      <UniqueIdentifier>{6b704782-01c2-4515-8be8-9309c7642eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreRegistry\Ps2">
+      <UniqueIdentifier>{29d2c2f4-63bf-4dab-a24d-31b5b542f018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSaveGame">
+      <UniqueIdentifier>{7968d253-90fe-4dec-84cf-59542439ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSaveGame\Pc">
+      <UniqueIdentifier>{68207dda-80ac-427a-8164-243e004a13e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSaveGame\Ps2">
+      <UniqueIdentifier>{74d4b66f-94ff-4358-9741-2829e973b500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSaveGame\Psp">
+      <UniqueIdentifier>{ed77f6cc-37c8-46fe-8d00-cc43d280f843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSystem">
+      <UniqueIdentifier>{41cf41de-01d8-414a-8f88-674d15888e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSystem\Pc">
+      <UniqueIdentifier>{b5bbe27a-9204-4a72-8929-e66af06b61f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreSystem\Ps2">
+      <UniqueIdentifier>{7d66f4f9-a729-492d-adbb-c326a8931e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreTiming">
+      <UniqueIdentifier>{5a819ea9-4137-45cf-afae-7cddeda9151b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreTiming\Pc">
+      <UniqueIdentifier>{c41ed0a3-a30f-47ee-b6d6-45f888b63ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreTiming\Ps2">
+      <UniqueIdentifier>{4b7ee9d5-f93f-4521-bedc-9c9f7e11ef9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreUseful">
+      <UniqueIdentifier>{cb3096e6-9667-4258-aa18-726d092b8c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreUseful\Pc">
+      <UniqueIdentifier>{aa6b8192-b41f-4e34-9e7e-9af7c2f5a07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreUseful\Ps2">
+      <UniqueIdentifier>{34b25eaf-7f6a-43ff-b0d6-b726f7ce1884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibCommon\CoreUseful\Psp">
+      <UniqueIdentifier>{734e90e9-c867-4ce3-8780-4b647b3fc3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibEffects\CoreFX">
+      <UniqueIdentifier>{09ed7500-a26e-4389-a4bf-73e10fffbb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibEffects">
+      <UniqueIdentifier>{02ad3e30-bc5d-4768-83f5-66d69b23f514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAIController">
+      <UniqueIdentifier>{bec54f0b-f9ac-4de3-a872-65fc59183a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame">
+      <UniqueIdentifier>{084bb2f1-04a9-4bd2-8f9b-b7609054d6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAssetManager">
+      <UniqueIdentifier>{9d1dcbad-1207-4cc7-b27f-0ab81da82859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAudio">
+      <UniqueIdentifier>{a53016d9-c665-4802-bc9b-580c14f3dbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAudio\Pc">
+      <UniqueIdentifier>{b0f28ec3-82c7-466f-89e9-973404b252f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAudio\Ps2">
+      <UniqueIdentifier>{bfb0cf39-d2b3-416b-8fa1-419d255a35bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAudio\Psp">
+      <UniqueIdentifier>{732064b8-6a97-4eab-93ae-86fa4a1bdf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreAudioLocator">
+      <UniqueIdentifier>{050373d1-2a3e-48e1-a48a-d97e3df2ae5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreBlender">
+      <UniqueIdentifier>{24daae8d-9324-4aba-8783-0c3ef05f6bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreCameraObject">
+      <UniqueIdentifier>{61384189-f6ff-471e-bba3-caea2dc6f8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreConsole">
+      <UniqueIdentifier>{b54cc564-f48f-4fe7-8178-8182becfce05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreCutScenePlayer">
+      <UniqueIdentifier>{b1b9907b-3285-4c83-a882-8337ac138272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreDetect">
+      <UniqueIdentifier>{d98db6dd-ea18-442f-9e06-294385c5e3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreFont">
+      <UniqueIdentifier>{fcca2f26-af80-4d3c-80fc-235dc1d1b4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreGameController">
+      <UniqueIdentifier>{3711f150-ed9c-4a6d-a4f5-c92f4b6ef59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreGameDialogs">
+      <UniqueIdentifier>{4e45d5a0-61b4-45c5-a0cf-db4205c69b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreGameRender">
+      <UniqueIdentifier>{9e8a2fca-a5a7-492a-aebb-1d7462340a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreKernel">
+      <UniqueIdentifier>{c329bcd3-6eed-40ff-bc79-c0ca492bf272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreKernel\Pc">
+      <UniqueIdentifier>{1e28ffd3-4fd7-4e60-b037-a2497565dfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreKernel\Ps2">
+      <UniqueIdentifier>{b00871f8-1484-4f09-896d-6058a6dcf2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreKernel\Psp">
+      <UniqueIdentifier>{10b730b5-ad15-4bbd-9379-03b1328ff70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreLevel">
+      <UniqueIdentifier>{22b35bdd-fc31-4450-91f5-7c23c1dd7c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreMenuSystem">
+      <UniqueIdentifier>{db35e9a6-3107-4d46-be0a-3941a6563087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreObject">
+      <UniqueIdentifier>{6c00568d-768f-41e4-8161-41ddb0f3410c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreObjectController">
+      <UniqueIdentifier>{dbc584df-2919-477d-91d5-619e91352b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CorePanel">
+      <UniqueIdentifier>{a4e93a04-56bf-408e-a870-fdbb51570ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGame\CoreWorld">
+      <UniqueIdentifier>{f4fae7a1-e5d1-47ad-b863-3f7894307d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics">
+      <UniqueIdentifier>{80d69a81-230f-421a-a9c9-502bde0d70d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreDebug">
+      <UniqueIdentifier>{6c197661-96c6-4dfc-a8e9-892034bd2751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreLevel">
+      <UniqueIdentifier>{04e4ef61-464c-4a3a-8d14-2a3889ebeb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet">
+      <UniqueIdentifier>{50f25f6e-f2aa-4bbf-ae96-3e54280a9c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreModel">
+      <UniqueIdentifier>{ec636764-7150-476d-8fcf-46f73f289135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreModel\Ps2">
+      <UniqueIdentifier>{62e687ae-f087-45b6-81e8-5815dc099bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreTexture">
+      <UniqueIdentifier>{aeed51e6-edce-4efd-b885-1fbfa04779a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreTexture\Ps2">
+      <UniqueIdentifier>{6e007940-a219-48d6-88f5-935a2f7f881b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\Pc">
+      <UniqueIdentifier>{e6e412fd-7225-401f-8002-08909affbf0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\Ps2">
+      <UniqueIdentifier>{0f59a746-c758-41b7-b059-83ef45e9c60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\Psp">
+      <UniqueIdentifier>{2bf6b3c9-2585-4c8b-9e7c-185fe6bef18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibInput">
+      <UniqueIdentifier>{de77fea6-b4f2-423a-bf29-8f1e5d699637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibInput\Pc">
+      <UniqueIdentifier>{63611b20-a5d7-40a8-ad72-ff0c24631274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibInput\Ps2">
+      <UniqueIdentifier>{4bd886c6-5e20-4ddf-af5f-4d38ae9131fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibInput\Psp">
+      <UniqueIdentifier>{693f9c28-dda5-4d77-a731-76d0195bf4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibNet">
+      <UniqueIdentifier>{12d0f0b9-cf31-4e36-87c3-6ef726aa6571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibNet\Pc">
+      <UniqueIdentifier>{3c694ea9-3ec0-45b2-8285-dbbdb1d4d371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibNet\Ps2">
+      <UniqueIdentifier>{259e4198-baf6-4fa4-bbcb-6d691e035640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibNet\Psp">
+      <UniqueIdentifier>{fd6cd2c8-a03a-468a-8150-ae6fbbe60f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibPhysics">
+      <UniqueIdentifier>{da97fe56-cad8-4c9c-b833-e4bfb8a37044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibScripted\Script">
+      <UniqueIdentifier>{0d28a6ef-cbbc-4d39-9a0d-38851e6af00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibScripted">
+      <UniqueIdentifier>{bba6f75c-a45a-4b31-b0c4-8cc29d647f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibScripted\Storage">
+      <UniqueIdentifier>{2f1f2cac-7f27-472f-aca2-efcc9b2d34f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibText">
+      <UniqueIdentifier>{a55ef5d9-85e6-4381-927e-5bf6f38c91b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRBackgroundObject">
+      <UniqueIdentifier>{0ef4d9ae-9950-4124-aff7-0f4a8c050b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FREffects">
+      <UniqueIdentifier>{dababfb9-37aa-4396-8f14-c1ae18ad873e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FREffects\Pc">
+      <UniqueIdentifier>{6001070c-4e25-4428-8504-81b8f2ae04b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FREffects\Ps2">
+      <UniqueIdentifier>{73fd181c-b36d-4dbb-bf7b-717d2da4eab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FREffects\Psp">
+      <UniqueIdentifier>{4d9fc63c-45d1-4e1c-961e-fd3194f49702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRGameController">
+      <UniqueIdentifier>{a8670ced-3e6e-467e-9ba3-3fd558ef199d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRGlobals">
+      <UniqueIdentifier>{d0dfe2fd-7b49-41c0-bdbe-76f5619fc053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRLevel">
+      <UniqueIdentifier>{bd2d757b-5728-46eb-beba-18c0bcd47f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRMain\Pc">
+      <UniqueIdentifier>{3f1765ac-7841-43b7-b82e-cea55268f474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRMain">
+      <UniqueIdentifier>{a40ffe4a-5d69-458c-9bc7-263de58767b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FRMain\Ps2">
+      <UniqueIdentifier>{1124674e-c624-40f5-8561-095d2edfe05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreAudio\include">
+      <UniqueIdentifier>{d9aae9d4-8f7a-45d7-9e3b-914535313b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\CoreLibGraphics\CoreTexture\Pc">
+      <UniqueIdentifier>{9f832b92-e061-4353-9d4d-12583f1cdb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\include">
+      <UniqueIdentifier>{57a9f07b-0734-4a16-888c-129fa0b198f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FRObjectController\FRObjectController.cpp">
+      <Filter>FRObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRAnimControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRAnimScriptControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRJumpControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRMiscControlFunctions.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerCollision.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRPlayerObject.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRShimmyControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\FRTrickTable.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\TRClimbControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\TRHair.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\TRSwimControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRPlayerObject\TRWeaponControl.cpp">
+      <Filter>FRPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRWorld\FRWorld.cpp">
+      <Filter>FRWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewBat.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewBear.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewCogs.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewCroc.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewDino.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewDoors.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewHints.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewLightning.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewMoveBlock.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewPeople.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewPickups.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewRaptor.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewRat.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewSwitches.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewTraps.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewWarrior.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\NewWolf.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ObjectControl\SpecialObjects.cpp">
+      <Filter>ObjectControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Trai\TRAIController.cpp">
+      <Filter>Trai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRAttractors\TRAttractors.cpp">
+      <Filter>TRAttractors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRCamera\TRChaseCamera.cpp">
+      <Filter>TRCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRCamera\TRFixedCamera.cpp">
+      <Filter>TRCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREditCameras.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREditItems.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREditor.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREditorDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREditTriggers.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREdObject.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TREventDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRHitItem.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRItemsDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRNodeDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRPickTargetDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRRegVal.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREditor\TRTriggersDialog.cpp">
+      <Filter>TREditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TREffects\TREffects.cpp">
+      <Filter>TREffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRFoliage\TRFoliageObject.cpp">
+      <Filter>TRFoliage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRGameObject\TRGameObject.cpp">
+      <Filter>TRGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRGameObject\TRRagdoll.cpp">
+      <Filter>TRGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRHashes\TRHashes.cpp">
+      <Filter>TRHashes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRInventory\TRInventory.cpp">
+      <Filter>TRInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRInventory\TRInvObject.cpp">
+      <Filter>TRInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRItem\TRItem.cpp">
+      <Filter>TRItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\MemCardGUI_PS2.cpp">
+      <Filter>TRMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\MemCardPS2.cpp">
+      <Filter>TRMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\Pc\TRMenuSystemPC.cpp">
+      <Filter>TRMenuSystem\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\Ps2\TRMenuSystemPS2.cpp">
+      <Filter>TRMenuSystem\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\TRMenuSystem.cpp">
+      <Filter>TRMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMenuSystem\TRProfile.cpp">
+      <Filter>TRMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRMultiMesh\TRMultiMeshObject.cpp">
+      <Filter>TRMultiMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRBGLightNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRCameraNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRECameraNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TREdItemNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRETriggerNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRFXNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRManipNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRNodes.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRObjectNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRSceneryNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRNodes\TRTriggerNode.cpp">
+      <Filter>TRNodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRPanel\TRPanel.cpp">
+      <Filter>TRPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRSound\NewAudioInfo.cpp">
+      <Filter>TRSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TRSound\TRSound.cpp">
+      <Filter>TRSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_API.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_AudioCodecADPCM.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_AudioWadManager.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_File.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_FileLoader.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Heap.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_List.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_MemoryManager.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_MemoryManagerSoundRAM.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Util.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\CAL0_Util_PS2EE_Blank.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_API_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_File_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_GlobalFile_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Heap_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Math_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_MemoryManagerSoundRAMPC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Pc\CAL0_Util_PC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_API_PS2_EE_RPC.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_Heap_PS2EE.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L0_LowLevel\Ps2\CAL0_Util_PS2EE.cpp">
+      <Filter>CoreAudio\CA_L0_LowLevel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_API.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioData.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioDriver.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioEvent.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItem.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItemDatabase.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioItemFileLink.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioListener.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioObject.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioParameter.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioPlayback.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_AudioStreamer.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ChannelManager.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_Instancetable.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_LevelManager.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ProgramLoader.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_ReverbManager.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_Sample.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SampleGroup.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SampleGroupPlayback.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_SRAMLoader.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\CAL1_StreamLoader.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_API_PC.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_AudioDriverPC.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Pc\CAL1_AudioStreamerPC.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\CA_L1_AudioDriver\Ps2\CAL1_API_PS2_EE_RPC.cpp">
+      <Filter>CoreAudio\CA_L1_AudioDriver\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreAudio\tools\MemoryWindow\MW.cpp">
+      <Filter>CoreAudio\tools\MemoryWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimationSet.cpp">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimData.cpp">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreCurveData.cpp">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreJointData.cpp">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSequencer.cpp">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnimSequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibAudio\CoreAudioPS2Dummy.cpp">
+      <Filter>CoreEngine\CoreLibAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreError.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreMap.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStr.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreTypes.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Pc\CoreErrorPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDisplayPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDma.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDrawPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreErrorPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreGSPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreVRAMPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommon.cpp">
+      <Filter>CoreEngine\CoreLibCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommonDialog\CoreCommonDialog.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreCommonDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreCommonDialog\Psp\CoreCommonDialogPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreCommonDialog\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreBuildSystemInterfaceUsingNamedPipe.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreCluster.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterData.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterFileSystem.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFile.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileDevice.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileOpenAttributes.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileSystem.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreRecentFileNameList.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreStdFileSystem.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Pc\CoreStdCFileDevicePC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Ps2\CoreStdCFileDevicePS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Psp\CoreRawFilePSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Psp\CoreStdCFileDevicePSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHash.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashElementTable.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashTable.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\CoreInit.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreInit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Pc\CoreInitPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreInit\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Ps2\CoreInitPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreInit\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreInit\Psp\CoreInitPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreInit\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMapFileParser\CoreMapFileFunctions.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMapFileParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreAngle.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreEulerAngle.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreGeometry.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMaths.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMatrix.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreQuat.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreRandom.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\Pc\CoreMatrixPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMatrixPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\PS2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMem.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemory.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryArray.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPool.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryStack.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreVolatileMemory\CoreVolatileMemory.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory\CoreVolatileMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\CoreMessageBox.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Pc\CoreMessageBoxPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMessageBox\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Ps2\CoreMessageBoxPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMessageBox\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMessageBox\Psp\CoreMessageBoxPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMessageBox\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\CoreMoviePlayer.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2\CoreMoviePlayerPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2\CoreMoviePlayerPS2_main.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_avsync.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_display.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_main.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp\CoreMoviePlayerPSP_sound.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreMoviePlayer\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\CoreNamedPipe.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNamedPipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Pc\CoreNamedPipePC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNamedPipe\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Ps2\CoreNamedPipePS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNamedPipe\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNamedPipe\Psp\CoreNamedPipePSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNamedPipe\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\CoreNetworkDialog.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNetworkDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Pc\CoreNetworkDialogPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNetworkDialog\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Ps2\CoreNetworkDialogPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNetworkDialog\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreNetworkDialog\Psp\CoreNetworkDialogPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreNetworkDialog\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\CoreOnScreenKeyboard.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreOnScreenKeyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Pc\CoreOnScreenKeyboardPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Ps2\CoreOnScreenKeyboardPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Psp\CoreOnScreenKeyboardPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreOnScreenKeyboard\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\CoreRegistry.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreRegistry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\Pc\CoreRegistryPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreRegistry\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreRegistry\Ps2\CoreRegistryPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreRegistry\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\CoreSaveGame.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSaveGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Pc\CoreSaveGamePC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSaveGame\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Ps2\CoreSaveGamePS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSaveGame\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSaveGame\Psp\CoreSaveGamePSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSaveGame\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\CoreSystem.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\Pc\CoreSystemPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSystem\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreSystem\Ps2\CoreSystemPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreSystem\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\CoreTiming.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreTiming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\Pc\CoreTimingPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreTiming\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreTiming\Ps2\CoreTimingPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreTiming\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\CoreUseful.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreUseful</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Pc\CoreUsefulPC.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreUseful\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Ps2\CoreUsefulPS2.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreUseful\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibCommon\CoreUseful\Psp\CoreUsefulPSP.cpp">
+      <Filter>CoreEngine\CoreLibCommon\CoreUseful\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFX.cpp">
+      <Filter>CoreEngine\CoreLibEffects\CoreFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXDefault.cpp">
+      <Filter>CoreEngine\CoreLibEffects\CoreFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXLibrary.cpp">
+      <Filter>CoreEngine\CoreLibEffects\CoreFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibEffects\CoreFXDebug.cpp">
+      <Filter>CoreEngine\CoreLibEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAIController\CoreAIController.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAIController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManager.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudio.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudioSpeechQueue.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Pc\CoreAudio_PC.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Ps2\CoreAudio_PS2.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudio\Psp\CoreAudioPSP.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreAudioLocator\CoreAudioLocatorObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreAudioLocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimList.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlender.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderBasic.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderComplex.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSequenced.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSimple.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraEffect.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreChaseCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCutSceneCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreFlexibleCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupRailCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreRailCamera.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreViewerObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreConsole\CoreConsole.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutSceneObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCutScenePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutScenePlayer.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreCutScenePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreDetect\CoreDetect.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreFont\CoreFont.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameController\CoreGameController.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreGameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameDialogs\CoreGameDialogs.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreGameDialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreGameRender\CoreGameRender.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreGameRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernel.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernelInitGame.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Pc\CoreKernelPC.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreExceptPS2.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreKernelPS2.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Psp\CoreKernelPSP.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevel.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelAsync.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelDetect.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelGeometry.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevelNavigation.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreNode.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuBase.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponent.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentListBox.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentSlider.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuSystem.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreAnimatingObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreGeometryObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreRenderableObject.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreEvent.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreObjectController.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CorePanel\CorePanel.cpp">
+      <Filter>CoreEngine\CoreLibGame\CorePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGame\CoreWorld\CoreWorld.cpp">
+      <Filter>CoreEngine\CoreLibGame\CoreWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreBatchRender.cpp">
+      <Filter>CoreEngine\CoreLibGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebug.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebugInput.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDevice.cpp">
+      <Filter>CoreEngine\CoreLibGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreBGLightController.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet\CoreCurveSetData.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelCompiled.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelDynamicFlap.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelDynamicLight.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFileFlap.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFileLight.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLight.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLightSet.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationData.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationMesh.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreSceneContainer.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelCompiled.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelGeometry.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelJoint.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelSkeleton.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\Ps2\CoreVertexPacket.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureSet.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\Ps2\CoreTextureFunctionsPS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreBatchRenderPC.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDeviceOpenGL.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDevicePC.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreBatchRenderPS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreFullScreenPS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2InternalData.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CorePacketsPS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreTextureManagerPS2.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVU1.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVUCodeModule.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibGraphics\Psp\CoreGraphicsDevicePSP.cpp">
+      <Filter>CoreEngine\CoreLibGraphics\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInput.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputAction.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputContext.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputDevice.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputID.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\CoreInputMapping.cpp">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Pc\CoreInputDeviceDirectInput.cpp">
+      <Filter>CoreEngine\CoreLibInput\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Ps2\CoreInputDeviceKeyboardPS2.cpp">
+      <Filter>CoreEngine\CoreLibInput\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Ps2\CoreInputDevicePS2.cpp">
+      <Filter>CoreEngine\CoreLibInput\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibInput\Psp\CoreInputDevicePSP.cpp">
+      <Filter>CoreEngine\CoreLibInput\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNet.cpp">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDevice.cpp">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceDebug.cpp">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceLobbying.cpp">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceSynchronisation.cpp">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Pc\CoreNetDevicePC.cpp">
+      <Filter>CoreEngine\CoreLibNet\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Ps2\CoreNetDevicePS2.cpp">
+      <Filter>CoreEngine\CoreLibNet\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibNet\Psp\CoreNetDevicePSP.cpp">
+      <Filter>CoreEngine\CoreLibNet\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsArticulate.cpp">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsBody.cpp">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsCollision.cpp">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsJoint.cpp">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsWorld.cpp">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreCommand.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreProgramCounter.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScript.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScripted.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Script\CoreVariable.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Storage\CoreBinaryScriptStore.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibScripted\Storage\CoreVariableStore.cpp">
+      <Filter>CoreEngine\CoreLibScripted\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CoreEngine\CoreLibText\CoreGameText.cpp">
+      <Filter>CoreEngine\CoreLibText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRBackgroundObject\FRBackgroundObject.cpp">
+      <Filter>FRBackgroundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\FRFXLibrary.cpp">
+      <Filter>FREffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\Pc\TRRoomEffectsPC.cpp">
+      <Filter>FREffects\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\Ps2\TRRoomEffectsPS2.cpp">
+      <Filter>FREffects\Ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\Psp\TRRoomEffectsPSP.cpp">
+      <Filter>FREffects\Psp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FREffects\TRRoomEffects.cpp">
+      <Filter>FREffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRGameController\FRGameController.cpp">
+      <Filter>FRGameController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRGlobals\FRGlobals.cpp">
+      <Filter>FRGlobals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\FRLevel.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\FRTrickText.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\TRCollision.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\TRObjectDB.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\TRRoom.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\TRSaveGame.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FRLevel\TRTriggers.cpp">
+      <Filter>FRLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="FRMain.cpp">
+      <Filter>FRMain\Pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ps2\FRMainPS2.cpp">
+      <Filter>FRMain\Ps2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FRObjectController\FRObjectController.h">
+      <Filter>FRObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRPlayerObject\FRPlayerObject.h">
+      <Filter>FRPlayerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRPlayerObject\FRPlayerObjectData.h">
+      <Filter>FRPlayerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRWorld\FRWorld.h">
+      <Filter>FRWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Trai\TRAIController.h">
+      <Filter>Trai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRAttractors\TRAttractors.h">
+      <Filter>TRAttractors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRCamera\TRChaseCamera.h">
+      <Filter>TRCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRCamera\TRFixedCamera.h">
+      <Filter>TRCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TREditor\TREdObject.h">
+      <Filter>TREditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TREditor\TRHitItem.h">
+      <Filter>TREditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRFoliage\TRFoliageObject.h">
+      <Filter>TRFoliage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRGameObject\TRGameObject.h">
+      <Filter>TRGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRInventory\TRInventory.h">
+      <Filter>TRInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRInventory\TRInvObject.h">
+      <Filter>TRInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRMenuSystem\MemCardGUI_PS2.h">
+      <Filter>TRMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRMenuSystem\TRProfile.h">
+      <Filter>TRMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRMultiMesh\TRMultiMeshObject.h">
+      <Filter>TRMultiMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRBGLightNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRCameraNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRETriggerNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRFXNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRManipNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRNodes.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRObjectNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRSceneryNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRNodes\TRTriggerNode.h">
+      <Filter>TRNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TRPanel\TRPanel.h">
+      <Filter>TRPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_Float.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_HeaderData.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL0_SectionInfo.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_AudioDriver.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_AudioPlayback.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreAudio\include\CAL1_SampleGroupPlayback.h">
+      <Filter>CoreAudio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimationSet.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreAnimData.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreBlendShapeData.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreCurveData.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreJointData.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreMarkerData.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnim\CoreTimeMarker.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimBlend.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnimSequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSequencer.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnimSequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreAnimSpec.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnimSequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibAnim\CoreAnimSequencer\CoreSpecMapping.h">
+      <Filter>CoreEngine\CoreLibAnim\CoreAnimSequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreMap.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStr.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\CoreStringBuffer.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDisplayPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreDma.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreGSPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreBase\Ps2\CoreVRAMPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreBase\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreCluster.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterData.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreClusterFileSystem.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFile.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileDevice.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileHandle.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreFileSystem.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\CoreStdFileSystem.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreFile\Ps2\CoreStdCFileDevicePS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreFile\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHash.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashArray.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreHash\CoreHashElementTable.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreHash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreAngleAxis.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreEulerAngle.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreGeometry.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreMatrix.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CorePlaneEquation.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreQuat.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\CoreVector.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMathsPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreMatrixPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreVector128PS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMaths\PS2\CoreVectorPS2.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMaths\PS2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMem.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemory.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryArray.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPool.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryPoolBlock.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibCommon\CoreMemory\CoreMemoryStack.h">
+      <Filter>CoreEngine\CoreLibCommon\CoreMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFX.h">
+      <Filter>CoreEngine\CoreLibEffects\CoreFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibEffects\CoreFX\CoreFXDefault.h">
+      <Filter>CoreEngine\CoreLibEffects\CoreFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAIController\CoreAIController.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAIController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManager.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAssetManager\CoreAssetManagerMemoryBlock.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudio.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudio\CoreAudioSpeechQueue.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreAudioLocator\CoreAudioLocatorObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreAudioLocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimList.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreAnimSlot.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlender.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderBasic.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderComplex.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSequenced.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreBlender\CoreBlenderSimple.h">
+      <Filter>CoreEngine\CoreLibGame\CoreBlender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCameraObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreChaseCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreCutSceneCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreFlexibleCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreGroupRailCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreRailCamera.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCameraObject\CoreViewerObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCameraObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreConsole\CoreConsole.h">
+      <Filter>CoreEngine\CoreLibGame\CoreConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutSceneObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCutScenePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreCutScenePlayer\CoreCutScenePlayer.h">
+      <Filter>CoreEngine\CoreLibGame\CoreCutScenePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreDetect\CoreDetect.h">
+      <Filter>CoreEngine\CoreLibGame\CoreDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreFont\CoreFont.h">
+      <Filter>CoreEngine\CoreLibGame\CoreFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameController\CoreGameController.h">
+      <Filter>CoreEngine\CoreLibGame\CoreGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameDialogs\CoreGameDialogs.h">
+      <Filter>CoreEngine\CoreLibGame\CoreGameDialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreGameRender\CoreGameRender.h">
+      <Filter>CoreEngine\CoreLibGame\CoreGameRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreKernel\CoreKernel.h">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreKernel\Ps2\CoreExceptPS2.h">
+      <Filter>CoreEngine\CoreLibGame\CoreKernel\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreLevel\CoreLevel.h">
+      <Filter>CoreEngine\CoreLibGame\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuBase.h">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponent.h">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuComponentListBox.h">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreMenuSystem\CoreMenuSystem.h">
+      <Filter>CoreEngine\CoreLibGame\CoreMenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreAnimatingObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreGeometryObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreObjectUpdateStruct.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CorePlayAnimInfo.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObject\CoreRenderableObject.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreObjectController\CoreObjectController.h">
+      <Filter>CoreEngine\CoreLibGame\CoreObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGame\CoreWorld\CoreWorld.h">
+      <Filter>CoreEngine\CoreLibGame\CoreWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreBatchRender.h">
+      <Filter>CoreEngine\CoreLibGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreDebug\CoreDebug.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDevice.h">
+      <Filter>CoreEngine\CoreLibGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreGraphicsDeviceNull.h">
+      <Filter>CoreEngine\CoreLibGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet\CoreCurveSetData.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel\CoreCurveSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreDetectionData.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelFlap.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLight.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreLevelLightSet.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreNavigationMesh.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreLevel\CoreRTreeRecord.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreMeshInstanceInfo.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelBlendShape.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelCompiled.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelGeometry.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelJoint.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMaterial.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMatrixPalette.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelMesh.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreModel\CoreModelSkeleton.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureAnimationInfo.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureInfo.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\CoreTextureSet.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\CoreTexture\Pc\CoreTextureFunctionsPC.h">
+      <Filter>CoreEngine\CoreLibGraphics\CoreTexture\Pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreBatchRenderPC.h">
+      <Filter>CoreEngine\CoreLibGraphics\Pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Pc\CoreGraphicsDeviceOpenGL.h">
+      <Filter>CoreEngine\CoreLibGraphics\Pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreBatchRenderPS2.h">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2.h">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreGraphicsDevicePS2InternalData.h">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CorePacketsPS2.h">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibGraphics\Ps2\CoreVUCodeModule.h">
+      <Filter>CoreEngine\CoreLibGraphics\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputAction.h">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputDevice.h">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputDeviceNull.h">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibInput\CoreInputState.h">
+      <Filter>CoreEngine\CoreLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\CoreNetDevice.h">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\CoreNetDeviceNULL.h">
+      <Filter>CoreEngine\CoreLibNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\Pc\CoreNetDevicePC.h">
+      <Filter>CoreEngine\CoreLibNet\Pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibNet\Ps2\CoreNetDevicePS2.h">
+      <Filter>CoreEngine\CoreLibNet\Ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsArticulate.h">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsBody.h">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsJoint.h">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibPhysics\CorePhysicsWorld.h">
+      <Filter>CoreEngine\CoreLibPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreCommand.h">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScript.h">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScripted.h">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreScriptUpdate.h">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\CoreLibScripted\Script\CoreVariable.h">
+      <Filter>CoreEngine\CoreLibScripted\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibAnim2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibCommon2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibEffects2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibGame2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibGraphics2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibInput2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibPhysics2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CoreEngine\include\CoreLibScripted2.h">
+      <Filter>CoreEngine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRBackgroundObject\FRBackgroundObject.h">
+      <Filter>FRBackgroundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FREffects\FRFXLibrary.h">
+      <Filter>FREffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FREffects\TRRoomEffects.h">
+      <Filter>FREffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRGameController\FRGameController.h">
+      <Filter>FRGameController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRLevel\FRLevel.h">
+      <Filter>FRLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FRLevel\TRObjectDB.h">
+      <Filter>FRLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>FRMain\Pc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Ps2\proview_startup.asm">
+      <Filter>FRMain\Ps2</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico">
+      <Filter>FRMain\Pc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>FRMain\Pc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
